@@ -1,4 +1,4 @@
-package ru.myitschool.lab23
+package ru.keyght.MeasurementConverter
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.MediumTest
@@ -10,7 +10,7 @@ import org.junit.runners.MethodSorters
 @RunWith(AndroidJUnit4::class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @MediumTest
-class InstrumentedTestLab24 {
+class InstrumentedTestMesurementConverter {
 
 }
 

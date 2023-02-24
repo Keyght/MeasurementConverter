@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "ru.myitschool.lab23"
+        applicationId "ru.keyght.MeasurementConverter"
         minSdk 26
         targetSdk 32
         versionCode 1

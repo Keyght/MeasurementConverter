@@ -1,4 +1,4 @@
-package ru.myitschool.lab23;
+package ru.keyght.MeasurementConverter;
 
 import org.junit.Test;
 

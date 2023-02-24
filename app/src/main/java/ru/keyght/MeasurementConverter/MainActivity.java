@@ -1,11 +1,11 @@
-package ru.myitschool.lab23;
+package ru.keyght.MeasurementConverter;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import ru.myitschool.lab23.databinding.ActivityMainBinding;
+import ru.keyght.MeasurementConverter.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 

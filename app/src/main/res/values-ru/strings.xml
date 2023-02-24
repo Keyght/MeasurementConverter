@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="true">Конвертер единиц измерения</string>
-
     <string name="et_inch" translatable="true">Дюймы</string>
     <string name="et_yard" translatable="true">Ярды</string>
     <string name="et_foot" translatable="true">Футы</string>
