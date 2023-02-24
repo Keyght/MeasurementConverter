@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="true">Конвертер единиц измерения</string>
+
+    <string name="et_inch" translatable="true">Дюймы</string>
+    <string name="et_yard" translatable="true">Ярды</string>
+    <string name="et_foot" translatable="true">Футы</string>
+    <string name="et_mile" translatable="true">Мили</string>
+    <string name="et_yottametre" translatable="true">Иоттаметры</string>
+    <string name="et_zettametre" translatable="true">Зеттаметры</string>
+    <string name="et_exametre" translatable="true">Эксаметры</string>
+    <string name="et_petametre" translatable="true">Петаметры</string>
+    <string name="et_terametre" translatable="true">Тераметры</string>
+    <string name="et_gigametre" translatable="true">Гигаметры</string>
+    <string name="et_megametre" translatable="true">Мегаметры</string>
+    <string name="et_kilometre" translatable="true">Километры</string>
+    <string name="et_hectometre" translatable="true">Гектометры</string>
+    <string name="et_decametre" translatable="true">Декаметры</string>
+    <string name="et_metre" translatable="true">Метры</string>
+    <string name="et_decimetre" translatable="true">Дециметры</string>
+    <string name="et_centimetre" translatable="true">Сантиметры</string>
+    <string name="et_millimetre" translatable="true">Миллиметры</string>
+    <string name="et_micrometre" translatable="true">Микрометры</string>
+    <string name="et_nanometre" translatable="true">Нанометры</string>
+    <string name="et_picometre" translatable="true">Пикометры</string>
+    <string name="et_femtometre" translatable="true">Фемтометры</string>
+    <string name="et_attometre" translatable="true">Аттометры</string>
+    <string name="et_zeptometre" translatable="true">Зептометры</string>
+    <string name="et_yoctometre" translatable="true">Иоктометры</string>
+
+    <string name="et_hint" translatable="true">Напишите число</string>
+</resources>

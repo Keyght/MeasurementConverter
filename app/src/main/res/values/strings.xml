@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="true">Measurement converter</string>
+
+    <string name="et_inch" translatable="true">Inches</string>
+    <string name="et_yard" translatable="true">Yards</string>
+    <string name="et_foot" translatable="true">Feet</string>
+    <string name="et_mile" translatable="true">Miles</string>
+    <string name="et_yottametre" translatable="true">Yottametres</string>
+    <string name="et_zettametre" translatable="true">Xettametres</string>
+    <string name="et_exametre" translatable="true">Exametres</string>
+    <string name="et_petametre" translatable="true">Petametres</string>
+    <string name="et_terametre" translatable="true">Terametres</string>
+    <string name="et_gigametre" translatable="true">Gigametres</string>
+    <string name="et_megametre" translatable="true">Megametres</string>
+    <string name="et_kilometre" translatable="true">Kilometres</string>
+    <string name="et_hectometre" translatable="true">Hectometres</string>
+    <string name="et_decametre" translatable="true">Decametres</string>
+    <string name="et_metre" translatable="true">Metres</string>
+    <string name="et_decimetre" translatable="true">Decimetres</string>
+    <string name="et_centimetre" translatable="true">Centimetres</string>
+    <string name="et_millimetre" translatable="true">Millimetres</string>
+    <string name="et_micrometre" translatable="true">Micrometres</string>
+    <string name="et_nanometre" translatable="true">Nanometres</string>
+    <string name="et_picometre" translatable="true">Picometres</string>
+    <string name="et_femtometre" translatable="true">Femtometres</string>
+    <string name="et_attometre" translatable="true">Attometres</string>
+    <string name="et_zeptometre" translatable="true">Zeptometres</string>
+    <string name="et_yoctometre" translatable="true">Yoctometres</string>
+
+    <string name="et_hint" translatable="true">Type number here</string>
+</resources>
