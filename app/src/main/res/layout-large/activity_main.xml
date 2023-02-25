@@ -45,12 +45,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -77,12 +76,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -108,12 +106,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -139,12 +136,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -170,12 +166,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -202,12 +197,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -234,12 +228,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -265,12 +258,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -298,12 +290,11 @@
                 android:autoSizeMinTextSize="36dp"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -332,12 +323,11 @@
                 android:autoSizeMinTextSize="36dp"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -366,12 +356,11 @@
                 android:autoSizeMinTextSize="36dp"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -398,12 +387,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -429,12 +417,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -460,12 +447,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -491,12 +477,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -523,12 +508,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -554,12 +538,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -585,12 +568,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -616,12 +598,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -647,12 +628,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -679,12 +659,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -711,12 +690,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
                 android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -743,12 +721,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="32dp"
+                android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -774,19 +751,18 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="32dp"
+                android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Yoctometre"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
@@ -806,12 +782,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="32dp"
+                android:minHeight="48dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 

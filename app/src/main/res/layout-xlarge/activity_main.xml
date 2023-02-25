@@ -25,7 +25,7 @@
         <LinearLayout
             android:id="@+id/Inch"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -57,7 +57,7 @@
         <LinearLayout
             android:id="@+id/Yard"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -88,7 +88,7 @@
         <LinearLayout
             android:id="@+id/Foot"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -119,7 +119,7 @@
         <LinearLayout
             android:id="@+id/Mile"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -150,7 +150,7 @@
         <LinearLayout
             android:id="@+id/Yottametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -182,7 +182,7 @@
         <LinearLayout
             android:id="@+id/Zettametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -214,7 +214,7 @@
         <LinearLayout
             android:id="@+id/Exametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -245,7 +245,7 @@
         <LinearLayout
             android:id="@+id/Petametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -276,7 +276,7 @@
         <LinearLayout
             android:id="@+id/Terametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -310,7 +310,7 @@
         <LinearLayout
             android:id="@+id/Gigametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -343,7 +343,7 @@
         <LinearLayout
             android:id="@+id/Megametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -378,7 +378,7 @@
         <LinearLayout
             android:id="@+id/Kilometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -409,7 +409,7 @@
         <LinearLayout
             android:id="@+id/Hectometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -440,7 +440,7 @@
         <LinearLayout
             android:id="@+id/Decametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -471,7 +471,7 @@
         <LinearLayout
             android:id="@+id/Metre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -503,7 +503,7 @@
         <LinearLayout
             android:id="@+id/Deciimetre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -534,7 +534,7 @@
         <LinearLayout
             android:id="@+id/Centimetre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -565,7 +565,7 @@
         <LinearLayout
             android:id="@+id/Millimetre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -596,7 +596,7 @@
         <LinearLayout
             android:id="@+id/Micrometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -627,7 +627,7 @@
         <LinearLayout
             android:id="@+id/Nanometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -659,7 +659,7 @@
         <LinearLayout
             android:id="@+id/Picometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -691,7 +691,7 @@
         <LinearLayout
             android:id="@+id/Femtometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -723,7 +723,7 @@
         <LinearLayout
             android:id="@+id/Attometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -754,7 +754,7 @@
         <LinearLayout
             android:id="@+id/Zeptometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -786,7 +786,7 @@
         <LinearLayout
             android:id="@+id/Yoctometre"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <TextView

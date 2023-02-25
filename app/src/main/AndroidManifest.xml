@@ -12,7 +12,8 @@
         <activity
             android:name="ru.keyght.MeasurementConverter.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.MeasurementConverter.NoActionBar">
+            android:theme="@style/Theme.MeasurementConverter.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

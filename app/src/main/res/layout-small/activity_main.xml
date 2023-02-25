@@ -25,7 +25,7 @@
         <LinearLayout
             android:id="@+id/Inch"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -37,27 +37,26 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_inch"
                 android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_inch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="16"
+                android:ems="12"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Yard"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -69,7 +68,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_yard"
                 android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_yard"
@@ -77,18 +76,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Foot"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -100,7 +98,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_foot"
                 android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_foot"
@@ -108,18 +106,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Mile"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -131,7 +128,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_mile"
                 android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_mile"
@@ -139,18 +136,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Yottametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -162,7 +158,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_yottametre"
                 android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_yottametre"
@@ -170,19 +166,18 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Zettametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -194,7 +189,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_zettametre"
                 android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_zettametre"
@@ -202,19 +197,18 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Exametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -226,7 +220,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_exametre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_exametre"
@@ -234,18 +228,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Petametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -257,7 +250,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_petametre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_petametre"
@@ -265,18 +258,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Terametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -288,7 +280,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_terametre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_terametre"
@@ -298,19 +290,18 @@
                 android:autoSizeMinTextSize="36dp"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Gigametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -322,7 +313,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_gigametre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_gigametre"
@@ -332,18 +323,17 @@
                 android:autoSizeMinTextSize="36dp"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Megametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -356,7 +346,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_megametre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_megametre"
@@ -366,19 +356,18 @@
                 android:autoSizeMinTextSize="36dp"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="16dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Kilometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -390,7 +379,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_kilometre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_kilometre"
@@ -398,18 +387,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="16dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Hectometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -421,7 +409,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_hectometre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_hectometre"
@@ -429,18 +417,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="16dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Decametre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -452,7 +439,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_decametre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_decametre"
@@ -460,18 +447,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Metre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -483,7 +469,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_metre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_metre"
@@ -491,19 +477,18 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Deciimetre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -515,7 +500,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_decimetre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_decimetre"
@@ -523,18 +508,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Centimetre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -546,7 +530,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_centimetre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_centimetre"
@@ -554,18 +538,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Millimetre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -577,7 +560,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_millimetre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_millimetre"
@@ -585,18 +568,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Micrometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -608,7 +590,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_micrometre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_micrometre"
@@ -616,18 +598,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Nanometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -639,7 +620,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_nanometre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_nanometre"
@@ -647,19 +628,18 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Picometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -671,7 +651,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_picometre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_picometre"
@@ -679,19 +659,18 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Femtometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -703,7 +682,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_femtometre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_femtometre"
@@ -711,19 +690,18 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="48dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Attometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -735,7 +713,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_attometre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_attometre"
@@ -743,18 +721,17 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="32dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Zeptometre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -766,7 +743,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_zeptometre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_zeptometre"
@@ -774,19 +751,18 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="32dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Yoctometre"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="26dp"
             android:orientation="horizontal">
 
             <TextView
@@ -798,7 +774,7 @@
                 android:paddingEnd="10dp"
                 android:text="@string/et_yoctometre"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                android:textSize="10sp" />
 
             <EditText
                 android:id="@+id/et_yoctometre"
@@ -806,12 +782,11 @@
                 android:layout_height="wrap_content"
                 android:ems="16"
                 android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
                 android:importantForAutofill="no"
                 android:inputType="number|text"
-                android:minHeight="32dp"
+                android:minHeight="8dp"
                 android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:textSize="8sp" />
 
         </LinearLayout>
 
