@@ -27,4 +27,5 @@
     <string name="et_yoctometre" translatable="true">Иоктометры</string>
 
     <string name="et_hint" translatable="true">Напишите число</string>
+    <string name="text_copied" translatable="true">Текст скопирован</string>
 </resources>

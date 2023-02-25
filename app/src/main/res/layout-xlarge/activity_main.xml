@@ -10,811 +10,923 @@
     tools:context="ru.keyght.MeasurementConverter.MainActivity">
 
 
-    <LinearLayout
-        android:id="@+id/Measurments"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <LinearLayout
-            android:id="@+id/Inch"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/Measurments"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
-            <TextView
-                android:id="@+id/name_et_inch"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_inch"
-                android:textColor="@color/purple_700"
-                android:textSize="24sp" />
-
-            <EditText
-                android:id="@+id/et_inch"
+            <LinearLayout
+                android:id="@+id/Inch"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Yard"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_inch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_inch"
+                    android:textColor="@color/purple_700"
+                    android:textSize="24sp"
+                    tools:layout_conversion_absoluteHeight="32dp"
+                    tools:layout_conversion_absoluteWidth="91dp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="9dp" />
 
-        <LinearLayout
-            android:id="@+id/Yard"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_inch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp"
+                    tools:layout_conversion_absoluteHeight="48dp"
+                    tools:layout_conversion_absoluteWidth="709dp"
+                    tools:layout_editor_absoluteX="91dp"
+                    tools:layout_editor_absoluteY="1dp" />
 
-            <TextView
-                android:id="@+id/name_et_yard"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_yard"
-                android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_yard"
+            <LinearLayout
+                android:id="@+id/Yard"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Foot"
+                app:layout_constraintTop_toBottomOf="@+id/Inch">
 
-        <LinearLayout
-            android:id="@+id/Foot"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_yard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_yard"
+                    android:textColor="@color/purple_700"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_foot"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_foot"
-                android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_yard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_foot"
+            <LinearLayout
+                android:id="@+id/Foot"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Mile"
+                app:layout_constraintTop_toBottomOf="@+id/Yard">
 
-        <LinearLayout
-            android:id="@+id/Mile"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_foot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_foot"
+                    android:textColor="@color/purple_700"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_mile"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_mile"
-                android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_foot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_mile"
+            <LinearLayout
+                android:id="@+id/Mile"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Yottametre"
+                app:layout_constraintTop_toBottomOf="@+id/Foot">
 
-        <LinearLayout
-            android:id="@+id/Yottametre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_mile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_mile"
+                    android:textColor="@color/purple_700"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_yottametre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_yottametre"
-                android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_mile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_yottametre"
+            <LinearLayout
+                android:id="@+id/Yottametre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Zettametre"
+                app:layout_constraintTop_toBottomOf="@+id/Mile">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_yottametre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_yottametre"
+                    android:textColor="@color/purple_700"
+                    android:textSize="24sp" />
 
-        <LinearLayout
-            android:id="@+id/Zettametre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_yottametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/name_et_zettametre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_zettametre"
-                android:textColor="@color/purple_700"
-                android:textSize="24sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_zettametre"
+            <LinearLayout
+                android:id="@+id/Zettametre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Exametre"
+                app:layout_constraintTop_toBottomOf="@+id/Yottametre">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_zettametre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_zettametre"
+                    android:textColor="@color/purple_700"
+                    android:textSize="24sp" />
 
-        <LinearLayout
-            android:id="@+id/Exametre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_zettametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/name_et_exametre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_exametre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_exametre"
+            <LinearLayout
+                android:id="@+id/Exametre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Petametre"
+                app:layout_constraintTop_toBottomOf="@+id/Zettametre">
 
-        <LinearLayout
-            android:id="@+id/Petametre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_exametre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_exametre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_petametre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_petametre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_exametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_petametre"
+            <LinearLayout
+                android:id="@+id/Petametre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Terametre"
+                app:layout_constraintTop_toBottomOf="@+id/Exametre">
 
-        <LinearLayout
-            android:id="@+id/Terametre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_petametre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_petametre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_terametre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_terametre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_petametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_terametre"
+            <LinearLayout
+                android:id="@+id/Terametre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoSizeMaxTextSize="24dp"
-                android:autoSizeMinTextSize="36dp"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Gigametre"
+                app:layout_constraintTop_toBottomOf="@+id/Petametre">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_terametre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_terametre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-        <LinearLayout
-            android:id="@+id/Gigametre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_terametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeMaxTextSize="24dp"
+                    android:autoSizeMinTextSize="36dp"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/name_et_gigametre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_gigametre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_gigametre"
+            <LinearLayout
+                android:id="@+id/Gigametre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoSizeMaxTextSize="24dp"
-                android:autoSizeMinTextSize="36dp"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Megametre"
+                app:layout_constraintTop_toBottomOf="@+id/Terametre">
 
-        <LinearLayout
-            android:id="@+id/Megametre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_gigametre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_gigametre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_megametre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:autoSizeMaxTextSize="24dp"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_megametre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_gigametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeMaxTextSize="24dp"
+                    android:autoSizeMinTextSize="36dp"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_megametre"
+            <LinearLayout
+                android:id="@+id/Megametre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoSizeMaxTextSize="24dp"
-                android:autoSizeMinTextSize="36dp"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Kilometre"
+                app:layout_constraintTop_toBottomOf="@+id/Gigametre">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_megametre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeMaxTextSize="24dp"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_megametre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-        <LinearLayout
-            android:id="@+id/Kilometre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_megametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeMaxTextSize="24dp"
+                    android:autoSizeMinTextSize="36dp"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/name_et_kilometre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_kilometre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_kilometre"
+            <LinearLayout
+                android:id="@+id/Kilometre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Hectometre"
+                app:layout_constraintTop_toBottomOf="@+id/Megametre">
 
-        <LinearLayout
-            android:id="@+id/Hectometre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_kilometre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_kilometre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_hectometre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_hectometre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_kilometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_hectometre"
+            <LinearLayout
+                android:id="@+id/Hectometre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Decametre"
+                app:layout_constraintTop_toBottomOf="@+id/Kilometre">
 
-        <LinearLayout
-            android:id="@+id/Decametre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_hectometre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_hectometre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_decametre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_decametre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_hectometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_decametre"
+            <LinearLayout
+                android:id="@+id/Decametre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Metre"
+                app:layout_constraintTop_toBottomOf="@+id/Hectometre">
 
-        <LinearLayout
-            android:id="@+id/Metre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_decametre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_decametre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_metre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_metre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_decametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_metre"
+            <LinearLayout
+                android:id="@+id/Metre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Deciimetre"
+                app:layout_constraintTop_toBottomOf="@+id/Decametre">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_metre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_metre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-        <LinearLayout
-            android:id="@+id/Deciimetre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_metre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/name_et_decimetre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_decimetre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_decimetre"
+            <LinearLayout
+                android:id="@+id/Deciimetre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Centimetre"
+                app:layout_constraintTop_toBottomOf="@+id/Metre">
 
-        <LinearLayout
-            android:id="@+id/Centimetre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_decimetre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_decimetre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_centimetre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_centimetre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_decimetre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_centimetre"
+            <LinearLayout
+                android:id="@+id/Centimetre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Millimetre"
+                app:layout_constraintTop_toBottomOf="@+id/Deciimetre">
 
-        <LinearLayout
-            android:id="@+id/Millimetre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_centimetre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_centimetre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_millimetre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_millimetre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_centimetre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_millimetre"
+            <LinearLayout
+                android:id="@+id/Millimetre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Micrometre"
+                app:layout_constraintTop_toBottomOf="@+id/Centimetre">
 
-        <LinearLayout
-            android:id="@+id/Micrometre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_millimetre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_millimetre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_micrometre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_micrometre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_millimetre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_micrometre"
+            <LinearLayout
+                android:id="@+id/Micrometre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Nanometre"
+                app:layout_constraintTop_toBottomOf="@+id/Millimetre">
 
-        <LinearLayout
-            android:id="@+id/Nanometre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_micrometre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_micrometre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_nanometre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_nanometre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_micrometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_nanometre"
+            <LinearLayout
+                android:id="@+id/Nanometre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Picometre"
+                app:layout_constraintTop_toBottomOf="@+id/Micrometre">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_nanometre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_nanometre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-        <LinearLayout
-            android:id="@+id/Picometre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_nanometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/name_et_picometre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_picometre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_picometre"
+            <LinearLayout
+                android:id="@+id/Picometre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Femtometre"
+                app:layout_constraintTop_toBottomOf="@+id/Nanometre">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_picometre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_picometre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-        <LinearLayout
-            android:id="@+id/Femtometre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_picometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/name_et_femtometre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_femtometre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_femtometre"
+            <LinearLayout
+                android:id="@+id/Femtometre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="48dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Attometre"
+                app:layout_constraintTop_toBottomOf="@+id/Picometre">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_femtometre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_femtometre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-        <LinearLayout
-            android:id="@+id/Attometre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_femtometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="48dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/name_et_attometre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_attometre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_attometre"
+            <LinearLayout
+                android:id="@+id/Attometre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="32dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
-        </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Zeptometre"
+                app:layout_constraintTop_toBottomOf="@+id/Femtometre">
 
-        <LinearLayout
-            android:id="@+id/Zeptometre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name_et_attometre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_attometre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/name_et_zeptometre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_zeptometre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/et_attometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="32dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_zeptometre"
+            <LinearLayout
+                android:id="@+id/Zeptometre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="32dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/Yoctometre"
+                app:layout_constraintTop_toBottomOf="@+id/Attometre">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_zeptometre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_zeptometre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-        <LinearLayout
-            android:id="@+id/Yoctometre"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_zeptometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="32dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/name_et_zeptometre2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:text="@string/et_yoctometre"
-                android:textColor="@color/purple_500"
-                android:textSize="24sp" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/et_yoctometre"
+            <LinearLayout
+                android:id="@+id/Yoctometre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="16"
-                android:hint="@string/et_hint"
-                android:importantForAccessibility="no"
-                android:importantForAutofill="no"
-                android:inputType="number|text"
-                android:minHeight="32dp"
-                android:textColorHint="@color/hint_black"
-                android:textSize="20sp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Zeptometre">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/name_et_zeptometre2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/et_yoctometre"
+                    android:textColor="@color/purple_500"
+                    android:textSize="24sp" />
 
-    </LinearLayout>
+                <EditText
+                    android:id="@+id/et_yoctometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="16"
+                    android:hint="@string/et_hint"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="number|text"
+                    android:minHeight="32dp"
+                    android:textColorHint="@color/hint_black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

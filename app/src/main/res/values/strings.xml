@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">MeasurementConverter</string>
 
+
     <string name="et_inch" translatable="true">Inches</string>
     <string name="et_yard" translatable="true">Yards</string>
     <string name="et_foot" translatable="true">Feet</string>
@@ -28,4 +29,5 @@
     <string name="et_yoctometre" translatable="true">Yoctometers</string>
 
     <string name="et_hint" translatable="true">Type number here</string>
+    <string name="text_copied" translatable="true">Text copied</string>
 </resources>

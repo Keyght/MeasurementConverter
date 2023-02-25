@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingQuantity">
+    <plurals name="et_inch" translatable="true">
+        <item quantity="one">%d Inch</item>
+        <item quantity="other">%d Inches</item>
+    </plurals>
+    <plurals name="et_yard" translatable="true">
+        <item quantity="one">%d Yard</item>
+        <item quantity="other">%d Yards</item>
+    </plurals>
+    <plurals name="et_foot" translatable="false">
+        <item quantity="one">%d Foot</item>
+        <item quantity="other">%d Feet</item>
+    </plurals>
+    <plurals name="et_mile" translatable="false">
+        <item quantity="one">%d Mile</item>
+        <item quantity="other">%d Miles</item>
+    </plurals>
+    <plurals name="et_yottametre" translatable="false">
+        <item quantity="one">%d Yottametre</item>
+        <item quantity="other">%d Yottameters</item>
+    </plurals>
+    <plurals name="et_zettametre" translatable="false">Zettameters</plurals>
+    <plurals name="et_exametre" translatable="false">Exameters</plurals>
+    <plurals name="et_petametre" translatable="false">Petameters</plurals>
+    <plurals name="et_terametre" translatable="false">Terameters</plurals>
+    <plurals name="et_gigametre" translatable="false">Gigameters</plurals>
+    <plurals name="et_megametre" translatable="false">Megameters</plurals>
+    <plurals name="et_kilometre" translatable="false">Kilometers</plurals>
+    <plurals name="et_hectometre" translatable="false">Hectometers</plurals>
+    <plurals name="et_decametre" translatable="false">Decameters</plurals>
+    <plurals name="et_metre" translatable="false">Meters</plurals>
+    <plurals name="et_decimetre" translatable="false">Decimeters</plurals>
+    <plurals name="et_centimetre" translatable="false">Centimeters</plurals>
+    <plurals name="et_millimetre" translatable="false">Millimeters</plurals>
+    <plurals name="et_micrometre" translatable="false">Micrometers</plurals>
+    <plurals name="et_nanometre" translatable="false">Nanometers</plurals>
+    <plurals name="et_picometre" translatable="false">Picometers</plurals>
+    <plurals name="et_femtometre" translatable="false">Femtometers</plurals>
+    <plurals name="et_attometre" translatable="false">Attometers</plurals>
+    <plurals name="et_zeptometre" translatable="false">Zeptometers</plurals>
+    <plurals name="et_yoctometre" translatable="false">Yoctometers</plurals>
+</resources>

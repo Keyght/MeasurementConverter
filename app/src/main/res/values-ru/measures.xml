@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="et_inch" translatable="true">
+        <item quantity="one">%d Дюйм</item>
+        <item quantity="few">%d Дюйма</item>
+        <item quantity="many">%d Дюймов</item>
+        <item quantity="other">%d Дюймы</item>
+    </plurals>
+    <plurals name="et_yard" translatable="true">
+        <item quantity="one">%d Ярд</item>
+        <item quantity="few">%d Ярда</item>
+        <item quantity="many">%d Ярдов</item>
+        <item quantity="other">%d Ярды</item>
+    </plurals>
+</resources>

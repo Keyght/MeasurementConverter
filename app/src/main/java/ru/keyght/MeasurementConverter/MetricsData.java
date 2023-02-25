@@ -1,14 +1,24 @@
 package ru.keyght.MeasurementConverter;
 
+import android.widget.EditText;
+
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MetricsData {
     private Map<Integer, String> text_view_captions;
+    private List<EditText> texts;
 
     public  MetricsData() {
-        text_view_captions = new HashMap<Integer, String>();
+        text_view_captions = new HashMap<>();
+        texts = new ArrayList<>();
 
+        FillCaptions();
+    }
+
+    private void FillCaptions() {
         text_view_captions.put(0, "et_inch");
         text_view_captions.put(1, "et_yard");
         text_view_captions.put(2, "et_foot");
@@ -36,7 +46,19 @@ public class MetricsData {
         text_view_captions.put(24, "et_yoctometre");
     }
 
+    public void OnAfterTextChanged() {
+        return;
+    }
+
     public Map<Integer, String> getText_view_captions() {
         return text_view_captions;
+    }
+
+    public List<EditText> getTexts() {
+        return texts;
+    }
+
+    public void AddEditText(EditText item) {
+        if (!texts.contains(item)) texts.add(item);
     }
 }
