@@ -8,36 +8,96 @@
         <item quantity="one">%d Yard</item>
         <item quantity="other">%d Yards</item>
     </plurals>
-    <plurals name="et_foot" translatable="false">
+    <plurals name="et_foot" translatable="true">
         <item quantity="one">%d Foot</item>
         <item quantity="other">%d Feet</item>
     </plurals>
-    <plurals name="et_mile" translatable="false">
+    <plurals name="et_mile" translatable="true">
         <item quantity="one">%d Mile</item>
         <item quantity="other">%d Miles</item>
     </plurals>
-    <plurals name="et_yottametre" translatable="false">
+    <plurals name="et_yottametre" translatable="true">
         <item quantity="one">%d Yottametre</item>
         <item quantity="other">%d Yottameters</item>
     </plurals>
-    <plurals name="et_zettametre" translatable="false">Zettameters</plurals>
-    <plurals name="et_exametre" translatable="false">Exameters</plurals>
-    <plurals name="et_petametre" translatable="false">Petameters</plurals>
-    <plurals name="et_terametre" translatable="false">Terameters</plurals>
-    <plurals name="et_gigametre" translatable="false">Gigameters</plurals>
-    <plurals name="et_megametre" translatable="false">Megameters</plurals>
-    <plurals name="et_kilometre" translatable="false">Kilometers</plurals>
-    <plurals name="et_hectometre" translatable="false">Hectometers</plurals>
-    <plurals name="et_decametre" translatable="false">Decameters</plurals>
-    <plurals name="et_metre" translatable="false">Meters</plurals>
-    <plurals name="et_decimetre" translatable="false">Decimeters</plurals>
-    <plurals name="et_centimetre" translatable="false">Centimeters</plurals>
-    <plurals name="et_millimetre" translatable="false">Millimeters</plurals>
-    <plurals name="et_micrometre" translatable="false">Micrometers</plurals>
-    <plurals name="et_nanometre" translatable="false">Nanometers</plurals>
-    <plurals name="et_picometre" translatable="false">Picometers</plurals>
-    <plurals name="et_femtometre" translatable="false">Femtometers</plurals>
-    <plurals name="et_attometre" translatable="false">Attometers</plurals>
-    <plurals name="et_zeptometre" translatable="false">Zeptometers</plurals>
-    <plurals name="et_yoctometre" translatable="false">Yoctometers</plurals>
+    <plurals name="et_zettametre" translatable="true">
+        <item quantity="one">%d Zettametre</item>
+        <item quantity="other">%d Zettameters</item>
+    </plurals>
+    <plurals name="et_exametre" translatable="true">
+        <item quantity="one">%d Exametre</item>
+        <item quantity="other">%d Exameters</item>
+    </plurals>
+    <plurals name="et_petametre" translatable="true">
+        <item quantity="one">%d Petametre</item>
+        <item quantity="other">%d Petameters</item>
+    </plurals>
+    <plurals name="et_terametre" translatable="true">
+        <item quantity="one">%d Terametre</item>
+        <item quantity="other">%d Terameters</item>
+    </plurals>
+    <plurals name="et_gigametre" translatable="true">
+        <item quantity="one">%d Gigametre</item>
+        <item quantity="other">%d Gigameters</item>
+    </plurals>
+    <plurals name="et_megametre" translatable="true">
+        <item quantity="one">%d Megametre</item>
+        <item quantity="other">%d Megameters</item>
+    </plurals>
+    <plurals name="et_kilometre" translatable="true">
+        <item quantity="one">%d Kilometre</item>
+        <item quantity="other">%d Kilometers</item>
+    </plurals>
+    <plurals name="et_hectometre" translatable="true">
+        <item quantity="one">%d Hectometre</item>
+        <item quantity="other">%d Hectometers</item>
+    </plurals>
+    <plurals name="et_decametre" translatable="true">
+        <item quantity="one">%d Decametre</item>
+        <item quantity="other">%d Decameters</item>
+    </plurals>
+    <plurals name="et_metre" translatable="true">
+        <item quantity="one">%d Metre</item>
+        <item quantity="other">%d Meters</item>
+    </plurals>
+    <plurals name="et_decimetre" translatable="true">
+        <item quantity="one">%d Decimetre</item>
+        <item quantity="other">%d Decimeters</item>
+    </plurals>
+    <plurals name="et_centimetre" translatable="true">
+        <item quantity="one">%d Centimetre</item>
+        <item quantity="other">%d Centimeters</item>
+    </plurals>
+    <plurals name="et_millimetre" translatable="true">
+        <item quantity="one">%d Millimetre</item>
+        <item quantity="other">%d Millimeters</item>
+    </plurals>
+    <plurals name="et_micrometre" translatable="true">
+        <item quantity="one">%d Micrometre</item>
+        <item quantity="other">%d Micrometers</item>
+    </plurals>
+    <plurals name="et_nanometre" translatable="true">
+        <item quantity="one">%d Nanometre</item>
+        <item quantity="other">%d Nanometers</item>
+    </plurals>
+    <plurals name="et_picometre" translatable="true">
+        <item quantity="one">%d Picometre</item>
+        <item quantity="other">%d Picometers</item>
+    </plurals>
+    <plurals name="et_femtometre" translatable="true">
+        <item quantity="one">%d Femtometre</item>
+        <item quantity="other">%d Femtometers</item>
+    </plurals>
+    <plurals name="et_attometre" translatable="true">
+        <item quantity="one">%d Attometre</item>
+        <item quantity="other">%d Attometers</item>
+    </plurals>
+    <plurals name="et_zeptometre" translatable="true">
+        <item quantity="one">%d Zeptometre</item>
+        <item quantity="other">%d Zeptometers</item>
+    </plurals>
+    <plurals name="et_yoctometre" translatable="true">
+        <item quantity="one">%d Yoctometre</item>
+        <item quantity="other">%d Yoctometers</item>
+    </plurals>
 </resources>

@@ -30,4 +30,6 @@
 
     <string name="et_hint" translatable="true">Type number here</string>
     <string name="text_copied" translatable="true">Text copied</string>
+    <string name="text_max_num" translatable="true">Number is out of bounds</string>
+    <string name="text_too_many_dots" translatable="true">Extra characters have been removed</string>
 </resources>

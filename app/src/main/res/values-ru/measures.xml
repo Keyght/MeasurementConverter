@@ -12,4 +12,142 @@
         <item quantity="many">%d Ярдов</item>
         <item quantity="other">%d Ярды</item>
     </plurals>
+    <plurals name="et_foot" translatable="true">
+        <item quantity="one">%d Фут</item>
+        <item quantity="few">%d Фута</item>
+        <item quantity="many">%d Футов</item>
+        <item quantity="other">%d Футы</item>
+    </plurals>
+    <plurals name="et_mile" translatable="true">
+        <item quantity="one">%d Миля</item>
+        <item quantity="few">%d Мили</item>
+        <item quantity="many">%d Миль</item>
+        <item quantity="other">%d Мили</item>
+    </plurals>
+    <plurals name="et_yottametre" translatable="true">
+        <item quantity="one">%d Иоттаметр</item>
+        <item quantity="few">%d Иоттаметра</item>
+        <item quantity="many">%d Иоттаметров</item>
+        <item quantity="other">%d Иоттаметры</item>
+    </plurals>
+    <plurals name="et_zettametre" translatable="true">
+        <item quantity="one">%d Зеттаметр</item>
+        <item quantity="few">%d Зеттаметра</item>
+        <item quantity="many">%d Зеттаметров</item>
+        <item quantity="other">%d Зеттаметры</item>
+    </plurals>
+    <plurals name="et_exametre" translatable="true">
+        <item quantity="one">%d Эксаметр</item>
+        <item quantity="few">%d Эксаметра</item>
+        <item quantity="many">%d Эксаметров</item>
+        <item quantity="other">%d Эксаметры</item>
+    </plurals>
+    <plurals name="et_petametre" translatable="true">
+        <item quantity="one">%d Петаметр</item>
+        <item quantity="few">%d Петаметра</item>
+        <item quantity="many">%d Петаметров</item>
+        <item quantity="other">%d Петаметры</item>
+    </plurals>
+    <plurals name="et_terametre" translatable="true">
+        <item quantity="one">%d Тераметр</item>
+        <item quantity="few">%d Тераметра</item>
+        <item quantity="many">%d Тераметров</item>
+        <item quantity="other">%d Тераметры</item>
+    </plurals>
+    <plurals name="et_gigametre" translatable="true">
+        <item quantity="one">%d Гигаметр</item>
+        <item quantity="few">%d Гигаметра</item>
+        <item quantity="many">%d Гигаметров</item>
+        <item quantity="other">%d Гигаметры</item>
+    </plurals>
+    <plurals name="et_megametre" translatable="true">
+        <item quantity="one">%d Мегаметр</item>
+        <item quantity="few">%d Мегаметра</item>
+        <item quantity="many">%d Мегаметров</item>
+        <item quantity="other">%d Мегаметры</item>
+    </plurals>
+    <plurals name="et_kilometre" translatable="true">
+        <item quantity="one">%d Километр</item>
+        <item quantity="few">%d Километра</item>
+        <item quantity="many">%d Километров</item>
+        <item quantity="other">%d Километры</item>
+    </plurals>
+    <plurals name="et_hectometre" translatable="true">
+        <item quantity="one">%d Гектометр</item>
+        <item quantity="few">%d Гектометра</item>
+        <item quantity="many">%d Гектометров</item>
+        <item quantity="other">%d Гектометры</item>
+    </plurals>
+    <plurals name="et_decametre" translatable="true">
+        <item quantity="one">%d Декаметр</item>
+        <item quantity="few">%d Декаметра</item>
+        <item quantity="many">%d Декаметров</item>
+        <item quantity="other">%d Декаметры</item>
+    </plurals>
+    <plurals name="et_metre" translatable="true">
+        <item quantity="one">%d Метр</item>
+        <item quantity="few">%d Метра</item>
+        <item quantity="many">%d Метров</item>
+        <item quantity="other">%d Метры</item>
+    </plurals>
+    <plurals name="et_decimetre" translatable="true">
+        <item quantity="one">%d Дециметр</item>
+        <item quantity="few">%d Дециметра</item>
+        <item quantity="many">%d Дециметров</item>
+        <item quantity="other">%d Дециметры</item>
+    </plurals>
+    <plurals name="et_centimetre" translatable="true">
+        <item quantity="one">%d Сантиметр</item>
+        <item quantity="few">%d Сантиметра</item>
+        <item quantity="many">%d Сантиметров</item>
+        <item quantity="other">%d Сантиметры</item>
+    </plurals>
+    <plurals name="et_millimetre" translatable="true">
+        <item quantity="one">%d Миллиметр</item>
+        <item quantity="few">%d Миллиметра</item>
+        <item quantity="many">%d Миллиметров</item>
+        <item quantity="other">%d Миллиметры</item>
+    </plurals>
+    <plurals name="et_micrometre" translatable="true">
+        <item quantity="one">%d Микрометр</item>
+        <item quantity="few">%d Микрометра</item>
+        <item quantity="many">%d Микрометров</item>
+        <item quantity="other">%d Микрометры</item>
+    </plurals>
+    <plurals name="et_nanometre" translatable="true">
+        <item quantity="one">%d Нанометр</item>
+        <item quantity="few">%d Нанометра</item>
+        <item quantity="many">%d Нанометров</item>
+        <item quantity="other">%d Нанометры</item>
+    </plurals>
+    <plurals name="et_picometre" translatable="true">
+        <item quantity="one">%d Пикометр</item>
+        <item quantity="few">%d Пикометра</item>
+        <item quantity="many">%d Пикометров</item>
+        <item quantity="other">%d Пикометры</item>
+    </plurals>
+    <plurals name="et_femtometre" translatable="true">
+        <item quantity="one">%d Фемтометр</item>
+        <item quantity="few">%d Фемтометра</item>
+        <item quantity="many">%d Фемтометров</item>
+        <item quantity="other">%d Фемтометры</item>
+    </plurals>
+    <plurals name="et_attometre" translatable="true">
+        <item quantity="one">%d Аттометр</item>
+        <item quantity="few">%d Аттометра</item>
+        <item quantity="many">%d Аттометров</item>
+        <item quantity="other">%d Аттометры</item>
+    </plurals>
+    <plurals name="et_zeptometre" translatable="true">
+        <item quantity="one">%d Зептометр</item>
+        <item quantity="few">%d Зептометра</item>
+        <item quantity="many">%d Зептометров</item>
+        <item quantity="other">%d Зептометры</item>
+    </plurals>
+    <plurals name="et_yoctometre" translatable="true">
+        <item quantity="one">%d Иоктометр</item>
+        <item quantity="few">%d Иоктометра</item>
+        <item quantity="many">%d Иоктометров</item>
+        <item quantity="other">%d Иоктометры</item>
+    </plurals>
 </resources>

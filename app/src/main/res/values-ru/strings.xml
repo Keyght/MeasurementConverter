@@ -28,4 +28,6 @@
 
     <string name="et_hint" translatable="true">Напишите число</string>
     <string name="text_copied" translatable="true">Текст скопирован</string>
+    <string name="text_max_num" translatable="true">Число выходит за пределы</string>
+    <string name="text_too_many_dots" translatable="true">Лишние символы были удалены</string>
 </resources>
